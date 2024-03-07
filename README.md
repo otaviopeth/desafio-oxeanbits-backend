@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Requisitos:
 
-Things you may want to cover:
+- ruby-3.1.4
+- sqlite3
 
-* Ruby version
+Clone o projeto e ao executar:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+bundle install
+rails db:migrate
+rails db:seed
